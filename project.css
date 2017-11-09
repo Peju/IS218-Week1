@@ -1,0 +1,96 @@
+/*Parallax
+.parallax{
+	
+	background:url(canadablur.jpg) no-repeat center center fixed;
+	background-size: 100%;
+	background-size: cover;
+    background-position: center;
+    min-height: 100%;
+    min-width: 1024px;
+ 
+}
+.parallax-inner{
+	padding-top: 20%;
+	padding-bottom: 25%;
+}
+*/
+.bgt
+ {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 100%;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: 50%;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 100px) { /* Specific to this particular image */	
+  img.bg {
+    left: 50%;
+    margin-left: 50%;   /* -512px 50% */
+  }
+}
+	
+.registerbox{
+	position:absolute;
+	width: 650px;
+	height: 650px;
+	top:6%;
+ 	left:44%;
+ 	margin-top:-15px; /* this is half the height of your div*/  
+  	margin-left:-220px; /*this is half of width of your div*/
+	background-color:
+	z-index: 2;
+}
+
+.labeltext{
+	color: white;
+	text-align: center;
+}
+
+.boxprop{
+	width: 150px;
+	margin 0;
+	box-sizing: border-box;
+}
+
+.registertext{
+	font-family: 'Raleway', sans-serif;
+	font-size: 48px;
+	color: white;
+	text-align: center;
+	padding-bottom: 7px;
+}
+
+.welcometext{
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px;
+	color: white;
+	text-align: center;
+	padding-bottom: 3.5%;
+}
+
+.boxsize{
+	width: 270px;
+	
+}
+
+.formgroup{
+	width: 270px;
+}
+
+
+.boxmove{
+	padding-left: 27%;
+	
+}
+/*
+.boxgender{
+	padding-left: 27.8%;
+}*/

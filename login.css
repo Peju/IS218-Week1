@@ -1,0 +1,51 @@
+.labeltext{
+	color: black;
+	text-align: center;
+}
+
+.boxmove{
+	padding-top: 2%;
+	padding-left: 475px;
+	
+}
+
+.boxsize{
+	width: 280px;
+	
+}
+
+.buttonmove{
+	padding-left: 38%;
+	padding-top: 1.5%;
+}
+
+
+.logintext{
+	font-family: 'Raleway', sans-serif;
+	font-size: 40px;
+	text-align: center;
+	padding-top: 3%;
+} 
+
+.loginbox{
+	padding-top: 2.5%;
+}
+
+.registertext{
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px;
+	text-align: center;
+}
+
+.bgc{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b1c8f5+0,fdffff+49 */
+background: rgb(177,200,245); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(177,200,245,1) 0%, rgba(253,255,255,1) 49%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(177,200,245,1) 0%,rgba(253,255,255,1) 49%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(177,200,245,1) 0%,rgba(253,255,255,1) 49%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b1c8f5', endColorstr='#fdffff',GradientType=0 ); /* IE6-9 */
+	/*background: url("http://interfacelift.com/wallpaper/previews/03840_takeadeepbreath_672x420.jpg");
+*/	
+	
+
+	}
