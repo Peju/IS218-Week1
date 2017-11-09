@@ -3,20 +3,21 @@ session_start();
 require 'logincheck.php';
  
 if(isset($_POST['login'])){
-    
+    /*
     //Retrieve the field values from our login form.
     $username = !empty($_POST['username']) ? trim($_POST['username']) : null;
     $passwordAttempt = !empty($_POST['password']) ? trim($_POST['password']) : null;
-    
+    */
     //Retrieve the user account information for the given username.
     $sql = "SELECT id, username, password FROM users WHERE username = :username";
     $stmt = $pdo->prepare($sql);
-    
+    $pppword = $_POST('passowrd');
+    $SEESION['userpword'] = $pppword;
     $stmt->bindValue(':username', $username);
     $stmt->execute();
     $user = $stmt->fetch(PDO::FETCH_ASSOC);
 
-    if($user === false){
+    if($user === False){
 
         die('Incorrect username / password combination!');
     } 

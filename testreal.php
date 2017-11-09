@@ -1,26 +1,3 @@
-<?php
-session_start();
-include_once 'logincheck.php';
-/*
-$loginfirst = $_POST['username'];
-$loginpass = $_POST['password'];
-$qry = $sql("SELECT* FROM accounts WHERE username = '$loginfirst'")
-*/
-
-$user = ['fname','lname']; 
-        
-$_SESSION['user'] = $user; 
-
-
-echo "<div class='welcome_login'><h1>Welcome!",$_SESION['user']['firstname'] ," Thanks for logging in!!</h1></div>";
-
-if(!isset($_SESSION['user_id']) || !isset($_SESSION['pppword'])){
-    header("Location: login2.php");
-}
-
-
-?>
-
 <?php include 'view/header.php'; ?>
 
 <html>

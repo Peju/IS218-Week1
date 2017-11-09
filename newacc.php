@@ -11,7 +11,7 @@
   $sql = 'SELECT* FROM accounts WHERE email = "'.$uname.'"';
   $results = runQuery($sql);
   if (count($results) > 0) {
-    header("Location: failureacc.php");
+    header("Location: identical.php");
   }else{
     $sql = 'INSERT INTO accounts (`email`, `password`, `fname`, `lname`, `birthday`, `gender`, `phone`) VALUES ("'.$uname.'", "'.$password.'", "'.$fname.'", "'.$lname.'", "'.$birthday.'", "'.$gender.'", "'.$num.'")';
     $result = runQuery($sql);
